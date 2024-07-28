@@ -186,7 +186,6 @@ main().catch((error) => {
 });
 EOL
 echo "transfer.js script created."
-
 echo "Transferring tokens..."
 npx hardhat run scripts/transfer.js --network swisstronik
 echo "Tokens transferred."
